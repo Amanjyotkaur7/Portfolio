@@ -1,6 +1,6 @@
 import GithubIcon from "./../public/assets/icons/github.svg";
 import LinkedInIcon from "./../public/assets/icons/linkedin.svg";
-import XIcon from "./../public/assets/icons/x.svg";
+import XIcon from "./../public/assets/icons/youtube.svg";
 import InstagramIcon from "./../public/assets/icons/instagram.svg";
 import FrontendIcon from "./../public/assets/icons/frontend.svg";
 import LeaderShipIcon from "./../public/assets/icons/leadership.svg";
@@ -41,23 +41,27 @@ const services = [
     title: "Frontend Developer",
     icon: <FrontendIcon />,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: <BackendIcon />,
-  // },
+  {
+    title: "Backend Developer",
+    icon: <BackendIcon />,
+  },
   {
     title: "Problem Solving",
     icon: <ProblemSolvingIcon />,
   },
-  {
-    title: "Freelancer",
-    icon: <FreelancerIcon />,
-  },
   // {
-  //   title: "Leadership",
-  //   icon: <LeaderShipIcon />,
+  //   title: "Freelancer",
+  //   icon: <FreelancerIcon />,
   // },
+  {
+    title: "Leadership",
+    icon: <LeaderShipIcon />,
+  },
 ];
+
+// constants/index.js
+
+// constants/index.js
 
 const technologies = {
   languages: [
@@ -77,9 +81,9 @@ const technologies = {
       link: "https://262.ecma-international.org/",
     },
     {
-      name: "TypeScript",
-      icon: "/assets/tech/typescript.svg",
-      link: "https://www.typescriptlang.org/",
+      name: "C++",
+      icon: "/assets/icons/c.svg",
+      link: "https://isocpp.org/",
     },
     {
       name: "C",
@@ -99,66 +103,26 @@ const technologies = {
   ],
   frameworks: [
     {
-      name: "Next.js",
-      icon: "/assets/tech/nextjs.svg",
-      link: "https://nextjs.org/",
-    },
-    {
-      name: "TailwindCSS",
-      icon: "/assets/tech/tailwindcss.svg",
-      link: "https://tailwindcss.com/",
+      name: "Bootstrap",
+      icon: "/assets/tech/bootstrap.svg",
+      link: "https://getbootstrap.com/",
     },
     {
       name: "Express.js",
       icon: "/assets/tech/expressjs.png",
       link: "https://expressjs.com/",
     },
-    {
-      name: "Flutter",
-      icon: "/assets/tech/flutter.svg",
-      link: "https://flutter.dev/",
-    },
   ],
   libraries: [
     {
       name: "React",
       icon: "/assets/tech/react.svg",
-      link: "https://react.dev/",
+      link: "https://reactjs.org/",
     },
     {
       name: "Three.js",
       icon: "/assets/tech/threejs.svg",
       link: "https://threejs.org/",
-    },
-    {
-      name: "Styled-Components",
-      icon: "/assets/tech/styled-components.png",
-      link: "https://styled-components.com/",
-    },
-    {
-      name: "Framer-motion",
-      icon: "/assets/tech/framer.svg",
-      link: "https://www.framer.com/motion/",
-    },
-    {
-      name: "Zustand",
-      icon: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
-      link: "https://zustand-demo.pmnd.rs",
-    },
-    {
-      name: "Redux/Redux-toolkit",
-      icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
-      link: "https://redux.js.org",
-    },
-    {
-      name: "NextAuth.js",
-      icon: "/assets/tech/nextauthjs.png",
-      link: "https://next-auth.js.org/",
-    },
-    {
-      name: "Prisma",
-      icon: "/assets/tech/prisma.svg",
-      link: "https://www.prisma.io/",
     },
   ],
   tools: [
@@ -168,56 +132,66 @@ const technologies = {
       link: "https://git-scm.com/",
     },
     {
-      name: "Github",
-      icon: "/assets/icons/github.svg",
+      name: "GitHub",
+      icon: "/assets/tech/github.svg",
       link: "https://github.com/",
     },
     {
       name: "Postman",
-      icon: "/assets/tech/postman.svg",
+      icon: "/assets/tech/postman.svg",  // Make sure you have an icon for Postman
       link: "https://www.postman.com/",
     },
+    // {
+    //   name: "Thunderclient",
+    //   icon: "/assets/tech/thunderclient.svg",  // Ensure you have an icon for Thunderclient
+    //   link: "https://www.thunderclient.com/",
+    // },
     {
-      name: "Figma",
-      icon: "/assets/tech/figma.svg",
-      link: "https://www.figma.com/",
-    },
-    {
-      name: "Docker",
-      icon: "/assets/tech/docker.svg",
-      link: "https://www.docker.com/",
-    },
-  ],
-  environments: [
-    {
-      name: "Node.js",
-      icon: "/assets/tech/nodejs.svg",
-      link: "https://nodejs.org/en",
+      name: "Tableau",
+      icon: "/assets/tech/tableau.svg",  // Make sure you have an icon for Tableau
+      link: "https://www.tableau.com/",
     },
   ],
   databases: [
-    {
-      name: "MySQL",
-      icon: "/assets/tech/my-sql.png",
-      link: "https://www.mysql.com/",
-    },
-    {
-      name: "PostgreSQL",
-      icon: "/assets/tech/postgresql.png",
-      link: "https://www.postgresql.org",
-    },
     {
       name: "MongoDB",
       icon: "/assets/tech/mongodb.svg",
       link: "https://www.mongodb.com/",
     },
     {
-      name: "Firebase",
-      icon: "/assets/tech/firebase.svg",
-      link: "https://firebase.google.com/",
+      name: "MySQL",
+      icon: "/assets/tech/my-sql.png",
+      link: "https://www.mysql.com/",
+    },
+  ],
+  environments: [
+    {
+      name: "VS Code",
+      icon: "/assets/tech/vscode.svg",
+      link: "https://code.visualstudio.com/",
+    },
+    {
+      name: "Node.js",
+      icon: "/assets/tech/nodejs.svg",  // Ensure you have an icon for Node.js
+      link: "https://nodejs.org/en/",
+    },
+  ],
+  gameDevTools: [
+    {
+      name: "Unity",
+      icon: "/assets/tech/unity.svg",
+      link: "https://unity.com/",
+    },
+    {
+      name: "Blender",
+      icon: "/assets/tech/blender.svg",
+      link: "https://www.blender.org/",
     },
   ],
 };
+
+
+
 
 const experiences = [
   // {
@@ -234,31 +208,31 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Frontend Developer Intern",
-    company_name: "Intern at Curowell Healthcare Private Ltd",
-    icon: "/assets/company/curowell-logo.svg",
+    title: "Technical Associate",
+    company_name: "Pink Parcel Ltd",
+    icon: "/assets/company/pink.jpg", // Add the company logo path here
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "Oct 2024 – Present",
     points: [
-      "Developing a healthcare SaaS platform using Next.js, TypeScript, and Tailwind CSS, significantly enhancing user experience.",
-      "Maintaining an efficient codebase under senior guidance, ensuring adherence to best practices in software development.",
-      "Contributing to the DND form microfrontend, improving user interaction by 30%.",
-      "Collaborating in UI/UX design efforts, leading to a 25% reduction in component development time.",
+      "Led full-stack development of the Pink Parcel platform using React.js and PHP.",
+      "Optimized API performance, improving response times by 30% through efficient query structuring.",
+      "Enhanced UI/UX with responsive and reusable components for better cross-device compatibility.",
+      "Implemented secure authentication and backend practices to improve system security and reliability.",
     ],
   },
   {
-    title: "Full Stack Developer Intern",
-    company_name: "Intern at DRDO CABS",
-    icon: "/assets/company/drdo-cabs.png",
+    title: "DSA Summer Training",
+    company_name: "CipherSchools",
+    icon: "/assets/company/cipher.png", // Add the company logo path here
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "Jun 2024 – Jul 2024",
     points: [
-      "Developed a Facility Bookings Manager for DRDO CABS using TypeScript, React, Node.js, Express, Prisma, and MySQL within a month.",
-      "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
-      "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
-      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to DRDO CABS's needs.",
+      "Completed intensive training focused on Data Structures and Algorithms using C++.",
+      "Solved 100+ algorithm problems and implemented a fully functional Binary Search Tree (BST) project.",
+      "Gained hands-on experience in competitive programming and problem-solving strategies.",
     ],
   },
+
   // {
   //   title: "Frontend Developer",
   //   company_name: "Tech team member at GDSC MVJCE",
@@ -303,66 +277,59 @@ const testimonials = [
 
 const projects = [
   {
-    name: "QuickEdit: AI-Powered Image & Video Editor",
+    name: "GameVerse: Full-Stack Gaming Portal",
     description:
-      "QuickEdit is an AI-powered online image and video editor built using the Cloudinary AI API. It offers robust features for both images and videos, with user-friendly authentication and a tiered credit system. Enhance your media editing experience with cutting-edge AI tools!",
+"GameVerse is a full-stack gaming portal where users can explore and download games, register for events, and access dynamic features like a hardware store, chatbot, and support. Built with HTML, CSS, JavaScript, Node.js, and MongoDB, it offers a seamless, responsive experience.",
     tags: [
       {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "shadcn",
+        name: "html",
         color: "orange-text-gradient",
       },
       {
-        name: "cloudinary",
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "yellow-text-gradient",
       },
+      {
+        name: "bootstrap",
+        color: "golden-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "teal-text-gradient",
+      },
     ],
-    image:
-      "https://res.cloudinary.com/dqiqi75hm/image/upload/v1734187202/quickedit/dp6y8s8dstqfpq7svmj5.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/QuickEdit",
-    deployed_link: "https://quick-edit-app.vercel.app",
+    image: "/assets/projects/game.png", // Replace with the actual image path
+    source_code_link: "https://github.com/Amanjyotkaur7/gamingwebsite", // Replace with your repo link
+    deployed_link: "https://github.com/Amanjyotkaur7/gamingwebsite", // Replace with your live deployed link
   },
+  
   {
-    name: "FigPro",
+    name: "Pink Parcel",
     description:
-      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
+      "Pink Parcel is a frontend web platform built with React.js and Bootstrap, focused on providing women-centric services. The platform features product and subscription listings, a period tracker, and doctor consultation access — all within a clean, responsive, and user-friendly interface.",
     tags: [
       {
-        name: "typescript",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
-      {
-        name: "fabricjs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "liveblocks",
-        color: "yellow-text-gradient",
-      },
     ],
-    image: "/assets/projects/fig-pro.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
-    deployed_link: "https://fig-pro-github.vercel.app",
+    image: "/assets/projects/pinkparcel.png", // Replace with the actual image path
+    source_code_link: "https://github.com/Amanjyotkaur7/pinkparcelLovely", // Replace with your repo link
+    deployed_link: "https://pink-parcel-website-react-jb7016o41-amanjyot-s-projects.vercel.app", // Replace with your live demo link
   },
+  
   // {
   //   name: "GDSC Website",
   //   description:
@@ -501,29 +468,27 @@ const socials = [
   {
     id: "github",
     icon: <GithubIcon />,
-    link: "https://github.com/Shivam-Sharma-1",
+    link: "https://github.com/Amanjyotkaur7",
   },
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/shivamsharma77607",
+    link: "https://www.linkedin.com/in/amanjyot-kaur-am764",
   },
   {
     id: "x",
     icon: <XIcon />,
-    link: "https://twitter.com/Shivam_1_Sharma",
+    link: "https://www.youtube.com/@amanjyotkaur5107",
   },
   {
     id: "instagram",
     icon: <InstagramIcon />,
-    link: "https://www.instagram.com/_.shivam._.here._",
+    link: "https://www.instagram.com/aman.lubana76",
   },
 ];
 
 const heroTexts = [
-  "React/Next.js developer",
-  500,
-  "Freelancer",
+  "Software developer",
   500,
   "Full-Stack developer",
   500,
@@ -531,7 +496,7 @@ const heroTexts = [
   500,
   "Backend developer",
   500,
-  "Problem solver",
+  "Game developer",
   500,
 ];
 

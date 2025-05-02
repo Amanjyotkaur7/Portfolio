@@ -27,28 +27,40 @@ function About() {
         viewport={{ once: true, amount: 0.25 }}
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
-        <div>
-          Hello! I&apos;m Shivam Sharma, a passionate web developer and problem
-          solver. Currently, I&apos;m the Tech Team Lead at GDSC MVJCE, and
-          I&apos;m pursuing a B.E. degree in Computer Science and Engineering at
-          MVJ College Of Engineering in Bengaluru, India, with an expected
-          graduation year of 2025. I&apos;m a software developer with experience
-          in TypeScript, TailwindCSS, and JavaScript. I specialize in frameworks
-          such as React, Node.js, Next.js, React-Three-Fiber, and Three.js. My
-          knowledge extends to fundamental data structures and algorithms,
-          making me well-versed in frontend web development.
-          <br className="sm:block hidden" />
-          Let&apos;s collaborate to bring your ideas to life!
+               <div>
+          Hi! I'm <strong>Amanjyot Kaur</strong>, a tech enthusiast and software developer passionate about crafting real-world solutions with clean, scalable code. I'm currently pursuing Computer Science Engineering at Lovely Professional University, where I actively build full-stack projects using <strong>React.js, Node.js, MongoDB, and PHP</strong>.
+
+          <br className="sm:block hidden" /><br />
+
+          I’ve created a full-fledged <strong>gaming website</strong> featuring game previews, downloadable content, and event registration functionalities. I also worked on a <strong>collaborative platform project</strong> that tracks student progress across competitive programming platforms and provides analytical insights along with rankings.
+
+          <br className="sm:block hidden" /><br />
+
+          My passion for game development has led me to explore tools like <strong>Unity</strong> for game logic and mechanics, and <strong>Blender</strong> for 3D modeling and animation. I'm currently diving deeper into real-time multiplayer game development using <strong>Socket.io</strong> and backend integration for live collaboration features.
+
+          <br className="sm:block hidden" /><br />
+
+          I’ve completed bootcamps and training in <strong>DSA (C++)</strong>, <strong>Python</strong>, and <strong>Git & GitHub</strong>, and I love transforming ideas into interactive digital experiences.
+
+          <br className="sm:block hidden" /><br />
+
+          Outside of coding, I’ve honed leadership and team-building skills through active participation in the <strong>NCC</strong> (National Cadet Corps), where I mentored juniors during multiple national-level training camps.
+
+          <br className="sm:block hidden" /><br />
+
+          I’m always up for creative challenges and exciting collaboration opportunities. Let’s connect!
         </div>
+
+
         <div className="w-fit break-words">
           <Link
-            href="mailto:shivamsharma77607@gmail.com"
+            href="mailto:amanjyotkaur736@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primary w-full transition-all duration-100 ease-in flex md:items-center gap-2 md:flex-row flex-wrap word-break hover:-translate-y-2"
           >
             <EmailIcon className="w-[30px] h-[30px]" />
-            shivamsharma77607@gmail.com
+             amanjyotkaur736@gmail.com
           </Link>
         </div>
         <div className="flex gap-5 items-center">
@@ -64,7 +76,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/Shivam_Sharma_Resume.pdf"
+          href="https://drive.google.com/drive/folders/1oskXBcSZ8aXbfRrKD5oyXtCtj7FzzTAV?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="w-fit"
@@ -83,6 +95,8 @@ function About() {
             </div>
           </div>
         </Link>
+
+       
       </motion.div>
     </section>
   );

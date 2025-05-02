@@ -1,3 +1,5 @@
+// components/Tech.jsx
+
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -13,6 +15,7 @@ const tech = [
   technologies.databases,
   technologies.tools,
   technologies.environments,
+  technologies.gameDevTools, // Make sure to include gameDevTools here
 ];
 
 const techVariants = [
@@ -22,6 +25,7 @@ const techVariants = [
   "Databases",
   "Tools",
   "Environments",
+  "Game Dev Tools", // Adjust this title for game development tools
 ];
 
 function Tech() {
