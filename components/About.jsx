@@ -28,27 +28,27 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
                <div>
-          Hi! I'm <strong>Amanjyot Kaur</strong>, a tech enthusiast and software developer passionate about crafting real-world solutions with clean, scalable code. I'm currently pursuing Computer Science Engineering at Lovely Professional University, where I actively build full-stack projects using <strong>React.js, Node.js, MongoDB, and PHP</strong>.
+          Hi! I&apos;m <strong>Amanjyot Kaur</strong>, a tech enthusiast and software developer passionate about crafting real-world solutions with clean, scalable code. I&apos;m currently pursuing Computer Science Engineering at Lovely Professional University, where I actively build full-stack projects using <strong>React.js, Node.js, MongoDB, and PHP</strong>.
 
           <br className="sm:block hidden" /><br />
 
-          I’ve created a full-fledged <strong>gaming website</strong> featuring game previews, downloadable content, and event registration functionalities. I also worked on a <strong>collaborative platform project</strong> that tracks student progress across competitive programming platforms and provides analytical insights along with rankings.
+          I&apos;ve created a full-fledged <strong>gaming website</strong> featuring game previews, downloadable content, and event registration functionalities. I also worked on a <strong>collaborative platform project</strong> that tracks student progress across competitive programming platforms and provides analytical insights along with rankings.
 
           <br className="sm:block hidden" /><br />
 
-          My passion for game development has led me to explore tools like <strong>Unity</strong> for game logic and mechanics, and <strong>Blender</strong> for 3D modeling and animation. I'm currently diving deeper into real-time multiplayer game development using <strong>Socket.io</strong> and backend integration for live collaboration features.
+          My passion for game development has led me to explore tools like <strong>Unity</strong> for game logic and mechanics, and <strong>Blender</strong> for 3D modeling and animation. I&apos;m currently diving deeper into real-time multiplayer game development using <strong>Socket.io</strong> and backend integration for live collaboration features.
 
           <br className="sm:block hidden" /><br />
 
-          I’ve completed bootcamps and training in <strong>DSA (C++)</strong>, <strong>Python</strong>, and <strong>Git & GitHub</strong>, and I love transforming ideas into interactive digital experiences.
+          I&apos;ve completed bootcamps and training in <strong>DSA (C++)</strong>, <strong>Python</strong>, and <strong>Git & GitHub</strong>, and I love transforming ideas into interactive digital experiences.
 
           <br className="sm:block hidden" /><br />
 
-          Outside of coding, I’ve honed leadership and team-building skills through active participation in the <strong>NCC</strong> (National Cadet Corps), where I mentored juniors during multiple national-level training camps.
+          Outside of coding, I&apos;ve honed leadership and team-building skills through active participation in the <strong>NCC</strong> (National Cadet Corps), where I mentored juniors during multiple national-level training camps.
 
           <br className="sm:block hidden" /><br />
 
-          I’m always up for creative challenges and exciting collaboration opportunities. Let’s connect!
+          I&apos;m always up for creative challenges and exciting collaboration opportunities. Let&apos;s connect!
         </div>
 
 
