@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: "export", // Enables static export mode
   images: {
+    unoptimized: true, // Disables Image Optimization (required for export)
     domains: [
       "res.cloudinary.com",
       "go-skill-icons.vercel.app",
